@@ -10,16 +10,16 @@ import java.lang.reflect.Array;
 @WebServlet(name = "ArrayGuiServlet", urlPatterns = "/array")
 public class ArrayGui extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
-        int size = Integer.parseInt(req.getParameter("size"));
-        String fill = req.getParameter("fill");
-
-        Array
-        for(int i = 0; i < size; i++) {
-
-            res.setContentType("text/html");
-            PrintWriter out = res.getWriter();
-            out.println("<div>" +item+ "</div>");
-        }
+//        int size = Integer.parseInt(req.getParameter("size"));
+//        String fill = req.getParameter("fill");
+//
+//        Array
+//        for(int i = 0; i < size; i++) {
+//
+//            res.setContentType("text/html");
+//            PrintWriter out = res.getWriter();
+//            out.println("<div>" +item+ "</div>");
+//        }
 
     }
 }
